@@ -11,13 +11,15 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
+    "ts-node": "^10.9.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "solve": "ts-node src/solve.ts"
   },
   "eslintConfig": {
     "extends": [
